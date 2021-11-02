@@ -1,30 +1,40 @@
 .main {
   width: 90vw;
   margin: 0 auto;
-  max-width: 1170px;
-
-  justify-items: center;
 }
+
 .content-container {
   display: flex;
   margin: 20px;
+  grid-template-columns: 225px 1fr;
+  grid-gap: 0 1.25rem;
+  gap: 0 1.25rem;
+  max-width: 40rem;
 }
 .dataDiv {
   margin-left: 15px;
+  width: 350px;
+  box-sizing: border-box;
 }
 .titile {
   display: flex;
   border-bottom: 0.5px dotted var(--clr-grey-5);
 }
 .imagesss {
-  width: 300px;
-  height: 200px;
+  width: 175px;
+  height: 150px;
   border-radius: var(--radius);
   border: 0.25rem solid var(--clr-gold);
 }
 #headings {
   text-transform: capitalize;
+  font-size: 1rem;
 }
 #pricess {
   color: var(--clr-gold);
+  font-size: 1rem;
+}
+#item-desc {
+  font-size: 1rem;
+  color: var(--clr-grey-5);
 }

@@ -1,11 +1,12 @@
 import React from "react";
+import "./carda-mapp.css";
 import FoodCards from "./Cards.js";
 
 function CardsMapping(props) {
   let Value = props.Picture;
 
   return (
-    <div>
+    <div className="main-section">
       {Value.map((Source) => {
         return (
           <FoodCards
